@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <table>
+        <tr>
+            <th>
+                <h1 style="color: red;">Thông tin cá nhân</h1>
+            </th>
+        </tr>
+        <tr>
+            <td colspan="2"><span style="color: red;">*</span>Tên</td>
+            <td><span style="color: red;">*</span>Họ</td>
+        </tr>
+        <tr>
+            <td colspan="2"><input type="text" name="tên"></td>
+            <td><input type="text" name="họ"></td>
+        </tr>
+        <tr>
+            <td colspan="2"><span style="color: red;">*</span>Quốc gia cư trú</td>
+            <td><span style="color: red;">*</span>Thành phố/Thị trấn</td>
+        </tr>
+        <tr>
+            <td colspan="2">
+                <select>
+                    <option value="">VietNam</option>
+                    <option value="">USA</option>
+                    <option value="">Japan</option>
+                </select>
+            </td>
+            <td><input type="text" name="city"></td>
+        </tr>
+        <tr>
+            <td><span style="color: red;">*</span>Mã vùng</td>
+            <td><span style="color: red;">*</span>Điện thoại</td>
+            <td colspan="2"><span style="color: red;">*</span>Email</td>
+        </tr>
+        <tr>
+            <td>
+                <select>
+                    <option value="">+84</option>
+                    <option value="">+1</option>
+                    <option value="">+81</option>
+                </select>
+            </td>
+            <td><input type="tel" required></td>
+            <td><input type="email" required></td>
+        </tr>
+        <tr><span style="color: red;">*</span>Ngôn ngữ</tr>
+        <tr>
+            <select>
+                <option value="">Tiếng Việt</option>
+                <option value="">Tiếng Nhật</option>
+                <option value="">Tiếng Anh</option>
+            </select>
+        </tr>
+    </table>
+    <hr>
+    <table>
+        <tr>
+            <h1 style="color: red;">Chi tiết tài khoản giao dịch</h1>
+        </tr>
+        <tr>
+            <td><span style="color: red;">*</span>Loại phần mềm giao dịch</td>
+            <td><span style="color: red;">*</span>Loại tài khoản</td>
+        </tr>
+        <tr>
+            <td>
+                <select>
+                    <option value="">MT5</option>
+                    <option value="">MT4</option>
+                </select>
+            </td>
+            <td>
+                <select>
+                    <option value="">standard</option>
+                    <option value="">XM untra low standard</option>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td><span style="color: red;">*</span>Tiền tệ gốc của tài khoản</td>
+            <td><span style="color: red;">*</span>Đòn bẩy</td>
+        </tr>
+        <tr>
+            <td>
+                <select>
+                    <option value="">USD</option>
+                    <option value="">VND</option>
+                    <option value="">Yen</option>
+                </select>
+            </td>
+            <td>
+                <select>
+                    <option value="">1:1000</option>
+                    <option value="">1:100</option>
+                    <option value="">1:10</option>
+                    <option value="">1:1</option>
+                </select>
+            </td>
+        </tr>
+    </table>
+    <hr>
+    <table>
+        <tr>
+            <h1 style="color: red;">Mật khẩu tài khoản</h1>
+        </tr>
+        <p>Trường <b>Mật khẩu tài khoản</b> phải được điền bằng các chữ cái trong bảng chữ cái tiếng Anh và phải bao gồm
+            ba loại ký</p>
+        <p>tự: chữ thường, chữ hoa và số. Bạn cũng có thể sử dụng bất kỳ ký tự đặc biệt nào sau đây: # [ ] ( ) @ $ & * !
+            ? | , . ^ / \ + _ -</p>
+        <tr>
+            <td><span style="color: red;">*</span>Mật khẩu tài khoảng</td>
+            <td><span style="color: red;">*</span>Xác nhận mật khẩu</td>
+        </tr>
+        <tr>
+            <td><input type="password" name="pass"></td>
+            <td><input type="password" name="pass" required></td>
+        </tr>
+        <tr>
+            <td>
+                <ul>
+                    <li>8 - 15 ký tự</li>
+                    <li>Ít nhất một chữ cái viết hoa (ABC)</li>
+                    <li>Ít nhất một chữ cái viết thường (abc)</li>
+                    <li>Ít nhất một số (123...)</li>
+                </ul>
+            </td>
+           
+        </tr>
+        <tr>
+            <td>
+                <input type="checkbox" name="open" id="open">
+                <label for="open">Tôi đồng ý nhận các bản tin, tin tức công ty, và cập nhật sản phẩm.</label>
+            </td>           
+        </tr>
+        <tr>
+            <td><input type="submit" value="MỞ TÀI KHOẢN DEMO"></td>
+        </tr>
+
+    </table>
+
+</body>
+
+</html>
