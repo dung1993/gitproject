@@ -4,112 +4,122 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Bàn cờ Vua</title>
 </head>
 <body>
-    <table border="0">
-        <thead><p>Bàn cờ vua</p>
-            <tr>
-                <th></th>
-                <th>1</th>
-                <th>2</th>
-                <th>3</th>
-                <th>4</th>
-                <th>5</th>
-                <th>6</th>
-                <th>7</th>
-                <th>8</th>
-            </tr>
-            <tr>
-                <td>1</td>
-                <td><input type="color" value="white" required="white"></td>
-                <td><input type="color" value="black"></td>
-                <td><input type="color" value="white"></td>
-                <td><input type="color" value="black"></td>
-                <td><input type="color" value="white"></td>
-                <td><input type="color" value="black"></td>
-                <td><input type="color" value="white"></td>
-                <td><input type="color" value="black"></td>
-            </tr>
-            <tr>
-                <td>2</td>
-                <td><input type="color" value="black"></td>
-                <td><input type="color" value="white"></td>
-                <td><input type="color" value="black"></td>
-                <td><input type="color" value="white"></td>
-                <td><input type="color" value="black"></td>
-                <td><input type="color" value="white"></td>
-                <td><input type="color" value="black"></td>
-                <td><input type="color" value="white"></td>
-            </tr>
-            <tr>
-                <td>3</td>
-                <td><input type="color" value="white"></td>
-                <td><input type="color" value="black"></td>
-                <td><input type="color" value="white"></td>
-                <td><input type="color" value="black"></td>
-                <td><input type="color" value="white"></td>
-                <td><input type="color" value="black"></td>
-                <td><input type="color" value="white"></td>
-                <td><input type="color" value="black"></td>
-            </tr>
-            <tr>
-                <td>4</td>
-                <td><input type="color" value="black"></td>
-                <td><input type="color" value="white"></td>
-                <td><input type="color" value="black"></td>
-                <td><input type="color" value="white"></td>
-                <td><input type="color" value="black"></td>
-                <td><input type="color" value="white"></td>
-                <td><input type="color" value="black"></td>
-                <td><input type="color" value="white"></td>
-            </tr>
-            <tr>
-                <td>5</td>
-                <td><input type="color" value="white"></td>
-                <td><input type="color" value="black"></td>
-                <td><input type="color" value="white"></td>
-                <td><input type="color" value="black"></td>
-                <td><input type="color" value="white"></td>
-                <td><input type="color" value="black"></td>
-                <td><input type="color" value="white"></td>
-                <td><input type="color" value="black"></td>
-            </tr>
-            <tr>
-                <td>6</td>
-                <td><input type="color" value="black"></td>
-                <td><input type="color" value="white"></td>
-                <td><input type="color" value="black"></td>
-                <td><input type="color" value="white"></td>
-                <td><input type="color" value="black"></td>
-                <td><input type="color" value="white"></td>
-                <td><input type="color" value="black"></td>
-                <td><input type="color" value="white"></td>
-            </tr>
-            <tr>
-                <td>7</td>
-                <td><input type="color" value="white"></td>
-                <td><input type="color" value="black"></td>
-                <td><input type="color" value="white"></td>
-                <td><input type="color" value="black"></td>
-                <td><input type="color" value="white"></td>
-                <td><input type="color" value="black"></td>
-                <td><input type="color" value="white"></td>
-                <td><input type="color" value="black"></td>
-            </tr>
-            <tr>
-                <td>8</td>
-                <td><input type="color" value="black"></td>
-                <td><input type="color" value="white"></td>
-                <td><input type="color" value="black"></td>
-                <td><input type="color" value="white"></td>
-                <td><input type="color" value="black"></td>
-                <td><input type="color" value="white"></td>
-                <td><input type="color" value="black"></td>
-                <td><input type="color" value="white"></td>
-            </tr>
-           
-        </thead>
+    <style>
+        #wh {
+            background-color: white;
+            height: 80px;
+            width: 80px;
+        }
+        #bl {
+            background-color: black;
+            height: 80px;
+            width: 80px;
+        }
+    </style>
+    <table style="background-color: yellow;">
+        <tr>
+            <th></th>
+            <th>1</th>
+            <th>2</th>
+            <th>3</th>
+            <th>4</th>
+            <th>5</th>
+            <th>6</th>
+            <th>7</th>
+            <th>8</th>
+        </tr>
+        <tr>
+            <th>A</th>
+            <th id="wh"></th>
+            <th id="bl"></th>
+            <th id="wh"></th>
+            <th id="bl"></th>
+            <th id="wh"></th>
+            <th id="bl"></th>
+            <th id="wh"></th>
+            <th id="bl"></th>
+        </tr>
+        <tr>
+            <th>B</th>   
+            <th id="bl"></th>
+            <th id="wh"></th>
+            <th id="bl"></th>
+            <th id="wh"></th>
+            <th id="bl"></th>
+            <th id="wh"></th>
+            <th id="bl"></th>
+            <th id="wh"></th>
+        </tr>
+        <tr>
+            <th>C</th>
+            <th id="wh"></th>
+            <th id="bl"></th>
+            <th id="wh"></th>
+            <th id="bl"></th>
+            <th id="wh"></th>
+            <th id="bl"></th>
+            <th id="wh"></th>
+            <th id="bl"></th>
+        </tr>
+        <tr>
+            <th>D</th>   
+            <th id="bl"></th>
+            <th id="wh"></th>
+            <th id="bl"></th>
+            <th id="wh"></th>
+            <th id="bl"></th>
+            <th id="wh"></th>
+            <th id="bl"></th>
+            <th id="wh"></th>
+        </tr>
+        <tr>
+            <th>E</th>
+            <th id="wh"></th>
+            <th id="bl"></th>
+            <th id="wh"></th>
+            <th id="bl"></th>
+            <th id="wh"></th>
+            <th id="bl"></th>
+            <th id="wh"></th>
+            <th id="bl"></th>
+        </tr>
+        <tr>
+            <th>F</th>   
+            <th id="bl"></th>
+            <th id="wh"></th>
+            <th id="bl"></th>
+            <th id="wh"></th>
+            <th id="bl"></th>
+            <th id="wh"></th>
+            <th id="bl"></th>
+            <th id="wh"></th>
+        </tr>
+        <tr>
+            <th>G</th>
+            <th id="wh"></th>
+            <th id="bl"></th>
+            <th id="wh"></th>
+            <th id="bl"></th>
+            <th id="wh"></th>
+            <th id="bl"></th>
+            <th id="wh"></th>
+            <th id="bl"></th>
+        </tr>
+        <tr>
+            <th>H</th>   
+            <th id="bl"></th>
+            <th id="wh"></th>
+            <th id="bl"></th>
+            <th id="wh"></th>
+            <th id="bl"></th>
+            <th id="wh"></th>
+            <th id="bl"></th>
+            <th id="wh"></th>
+        </tr>
+
     </table>
 </body>
 </html>
